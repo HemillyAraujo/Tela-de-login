@@ -1,0 +1,64 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-image: url('winxp.jpg');
+    background-repeat: no-repeat; /**/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+h1 {
+    margin: 0 120px 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: rgb(175, 175, 238);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: blue;
+}
